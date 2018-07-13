@@ -20,14 +20,6 @@ li{
   position: relative;
 }
 
-ul li ul li {
-  display: none;
-}
-
-ul li:hover ul li{
-  display: block;
-}
-
 a{
   color: #00bbbb;
   text-decoration: none;

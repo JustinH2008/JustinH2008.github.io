@@ -1,6 +1,6 @@
 .App {
   text-align: center;
-  background-color: #292929;
+  background-color: #bbbbbb;
   color: #00bbbb;
   font-weight: bolder;
   font-size: 15pt;
@@ -21,17 +21,18 @@ li{
 }
 
 a{
-  color: #00bbbb;
+  color: #4d4d4d;
   text-decoration: none;
   text-transform: uppercase;
   font-size: 17px;
+  font-weight: bold;
 }
 
 a::before{
   content: '';
   display: block;
   height: 5px;
-  background-color: #008f8f;
+  background-color: #000000;
   position: absolute;
   top: 0;
   width: 0%;
@@ -39,7 +40,7 @@ a::before{
 }
 
 a:hover{
-  color: #008f8f;
+  color: #000000;
 }
 
 a:hover::before{
